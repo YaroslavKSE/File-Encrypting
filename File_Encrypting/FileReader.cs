@@ -16,7 +16,7 @@ public class FileReader
 
             text = textArray;
         }
-        
-        return text;   
+
+        return text;
     }
 }
