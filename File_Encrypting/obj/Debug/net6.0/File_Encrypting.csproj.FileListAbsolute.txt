@@ -1,0 +1,16 @@
+C:\C#\File_Encrypting\File_Encrypting\bin\Debug\net6.0\File_Encrypting.exe
+C:\C#\File_Encrypting\File_Encrypting\bin\Debug\net6.0\File_Encrypting.deps.json
+C:\C#\File_Encrypting\File_Encrypting\bin\Debug\net6.0\File_Encrypting.runtimeconfig.json
+C:\C#\File_Encrypting\File_Encrypting\bin\Debug\net6.0\File_Encrypting.dll
+C:\C#\File_Encrypting\File_Encrypting\bin\Debug\net6.0\File_Encrypting.pdb
+C:\C#\File_Encrypting\File_Encrypting\obj\Debug\net6.0\File_Encrypting.csproj.AssemblyReference.cache
+C:\C#\File_Encrypting\File_Encrypting\obj\Debug\net6.0\File_Encrypting.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\File_Encrypting\File_Encrypting\obj\Debug\net6.0\File_Encrypting.AssemblyInfoInputs.cache
+C:\C#\File_Encrypting\File_Encrypting\obj\Debug\net6.0\File_Encrypting.AssemblyInfo.cs
+C:\C#\File_Encrypting\File_Encrypting\obj\Debug\net6.0\File_Encrypting.csproj.CoreCompileInputs.cache
+C:\C#\File_Encrypting\File_Encrypting\obj\Debug\net6.0\File_Encrypting.dll
+C:\C#\File_Encrypting\File_Encrypting\obj\Debug\net6.0\refint\File_Encrypting.dll
+C:\C#\File_Encrypting\File_Encrypting\obj\Debug\net6.0\File_Encrypting.pdb
+C:\C#\File_Encrypting\File_Encrypting\obj\Debug\net6.0\File_Encrypting.genruntimeconfig.cache
+C:\C#\File_Encrypting\File_Encrypting\obj\Debug\net6.0\ref\File_Encrypting.dll
+C:\C#\File_Encrypting\File_Encrypting\obj\Debug\net6.0\File_Encrypting.csproj.CopyComplete
