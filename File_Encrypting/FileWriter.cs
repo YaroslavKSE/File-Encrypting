@@ -6,10 +6,11 @@ public class FileWriter
     {
         if (path != null && path.EndsWith(".txt"))
         {
-            using StreamWriter file = new(path);
+            using StreamWriter file = new(path, false);
             using (file)
             {
                 file.Write(text);
+                
             }
         }
     }

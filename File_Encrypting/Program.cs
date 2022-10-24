@@ -5,9 +5,9 @@ const string path = @"C:\C#\File_Encrypting\File_Encrypting\";
 
 while (true)
 {
-    Console.WriteLine("Enter '1' to encrypt \n" +
-                      "Enter '2' to decrypt: \n" +
-                      "Enter '3' to continue in secret mode");
+    Console.WriteLine("Enter '1' to encrypt; \n" +
+                      "Enter '2' to decrypt; \n" +
+                      "Enter '3' to continue in secret mode:");
     var whatToDo = Console.ReadLine();
     var caesarCypher = new Caesar();
     if (whatToDo == "1")
@@ -37,12 +37,13 @@ while (true)
         var key = Console.ReadLine();
 
         var fileReader = new FileReader();
-        var decrypted = caesarCypher.Decrypt(fileReader.Read($"{path}{forReading}"), int.Parse(key!));
+        var text = fileReader.Read($"{path}{forReading}");
+        var decrypted = caesarCypher.Decrypt(text, int.Parse(key!));
 
         var fileWriter = new FileWriter();
         fileWriter.Write($"{path}{forWriting}", decrypted);
     }
-    else
+    if(whatToDo == "3")
     {
         Console.WriteLine("Enter file name for encryption:");
         var forReading = Console.ReadLine();

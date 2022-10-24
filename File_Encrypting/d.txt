@@ -1,0 +1,2 @@
+Virtual
+memory is a common technique used in a computerAs operating system (OS).
