@@ -1,6 +1,6 @@
 ﻿namespace File_Encrypting;
 
-public class FileWriter
+public class FileWriter : IWriter
 {
     public void Write(string? path, char[] text)
     {

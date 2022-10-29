@@ -1,6 +1,6 @@
 ﻿namespace File_Encrypting;
 
-public class FileReader
+public class FileReader : IReader
 {
     public char[] Read(string path)
     {

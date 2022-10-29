@@ -1,7 +1,8 @@
 ﻿using Caesar_Encryption_Algorithm_PPO;
 using File_Encrypting;
 
-const string path = @"C:\C#\File_Encrypting\File_Encrypting\";
+const string path = @"D:\C#\File-Encrypting\File_Encrypting\";
+
 
 while (true)
 {
@@ -20,13 +21,14 @@ while (true)
         Console.WriteLine("Enter key:");
         var key = Console.ReadLine();
 
-        var fileReader = new FileReader();
+        IReader fileReader = new FileReader();
         var encrypted = caesarCypher.Encrypt(fileReader.Read($"{path}{forReading}"), int.Parse(key!));
 
-        var fileWriter = new FileWriter();
+        IWriter fileWriter = new FileWriter();
         fileWriter.Write($"{path}{forWriting}", encrypted);
     }
-    if(whatToDo == "2")
+
+    if (whatToDo == "2")
     {
         Console.WriteLine("Enter file name for decryption:");
         var forReading = Console.ReadLine();
@@ -36,14 +38,14 @@ while (true)
         Console.WriteLine("Enter key:");
         var key = Console.ReadLine();
 
-        var fileReader = new FileReader();
-        var text = fileReader.Read($"{path}{forReading}");
-        var decrypted = caesarCypher.Decrypt(text, int.Parse(key!));
+        IReader fileReader = new FileReader();
+        var decrypted = caesarCypher.Decrypt(fileReader.Read($"{path}{forReading}"), int.Parse(key!));
 
-        var fileWriter = new FileWriter();
+        IWriter fileWriter = new FileWriter();
         fileWriter.Write($"{path}{forWriting}", decrypted);
     }
-    if(whatToDo == "3")
+
+    if (whatToDo == "3")
     {
         Console.WriteLine("Enter file name for encryption:");
         var forReading = Console.ReadLine();
@@ -52,13 +54,12 @@ while (true)
         var forWriting = Console.ReadLine();
 
         var key = Random.Shared.Next(100);
-        
-        var fileReader = new FileReader();
+
+        IReader fileReader = new FileReader();
         var encrypted = caesarCypher.Encrypt(fileReader.Read($"{path}{forReading}"), key);
 
-        var fileWriter = new FileWriter();
+        IWriter fileWriter = new FileWriter();
         fileWriter.Write($"{path}{forWriting}", encrypted);
-
     }
 
     Console.WriteLine("Successful");

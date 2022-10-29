@@ -2,4 +2,5 @@
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CC_0023_005CFile_005FEncrypting_005CFile_005FEncrypting_005Cbin_005CDebug_005Cnet6_002E0_005CCaesar_0020Encryption_0020Algorithm_0020PPO_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
   &lt;Assembly Path="C:\C#\File_Encrypting\File_Encrypting\bin\Debug\net6.0\Caesar Encryption Algorithm PPO.dll" /&gt;&#xD;
+  &lt;Assembly Path="D:\C#\File-Encrypting\File_Encrypting\bin\Debug\net6.0\Caesar Encryption Algorithm PPO.dll" /&gt;&#xD;
 &lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>
